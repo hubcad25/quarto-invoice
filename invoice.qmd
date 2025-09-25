@@ -15,7 +15,7 @@ recipient:
     country: "[Client Country]"
 format:
   typst:
-    template: "_extensions/quarto-invoice/template.typ"
+    template: "_extensions/hubcad25/quarto-invoice/template.typ"
 brand:
   typography:
     fonts:
