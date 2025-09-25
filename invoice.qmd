@@ -24,7 +24,7 @@ recipient:
     country: "[Client Country]"
 format:
   typst:
-    template: "_extensions/hubcad25/quarto-invoice/template.typ"
+    template: "template.typ"
 lang: "en_CA"
 region: "CA"
 papersize: "a4"
