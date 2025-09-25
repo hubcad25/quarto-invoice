@@ -9,7 +9,3 @@ contributes:
       template-partials:
         - typst-template.typ
         - typst-show.typ
-  starter:
-    - template: ../../invoice.qmd
-      name: "Personal Invoice"
-      description: "Invoice template with personal information pre-filled"
