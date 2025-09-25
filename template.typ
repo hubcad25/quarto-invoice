@@ -264,9 +264,9 @@ $if(papersize)$
   paper: "$papersize$",
 $endif$
 $if(mainfont)$
-  font: ("$mainfont$",),
+  font: "$mainfont$",
 $elseif(brand.typography.base.family)$
-  font: ("$brand.typography.base.family$",),
+  font: "$brand.typography.base.family$",
 $endif$
 $if(fontsize)$
   fontsize: $fontsize$,
@@ -275,7 +275,7 @@ $elseif(brand.typography.base.size)$
 $endif$
 $if(title)$
 $if(brand.typography.headings.family)$
-  heading-family: ("$brand.typography.headings.family$",),
+  heading-family: "$brand.typography.headings.family$",
 $endif$
 $if(brand.typography.headings.weight)$
   heading-weight: $brand.typography.headings.weight$,
