@@ -1,7 +1,20 @@
 #let parse-date(date) = {
-  let date = date.replace("\\", "")
-  let date = str(date).split("-").map(int)
-  datetime(year: date.at(0), month: date.at(1), day: date.at(2))
+  if date == none or date == "" {
+    return datetime.today()
+  }
+  let date = str(date).replace("\\", "")
+  // Check if it contains brackets (placeholder text)
+  if date.contains("[") {
+    return datetime.today()
+  }
+  let date-parts = date.split("-")
+  if date-parts.len() != 3 {
+    return datetime.today()
+  }
+  let year = int(date-parts.at(0))
+  let month = int(date-parts.at(1))
+  let day = int(date-parts.at(2))
+  datetime(year: year, month: month, day: day)
 }
 
 #let format-date(date) = {
