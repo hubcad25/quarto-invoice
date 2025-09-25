@@ -1,6 +1,15 @@
 ---
 title: "Invoice [Invoice Number]"
 description: "[Invoice Period - e.g., 2025/01/01 -- 2025/01/31]"
+sender:
+  name: "Hubert CADIEUX"
+  email: "hubert.cadieux.1@ulaval.ca"
+  address:
+    street: "304-7430 rue Lajeunesse"
+    zip: "H2R 2H8"
+    city: "Montréal"
+    country: "Canada"
+  exempted: "Exempted from GST/HST in Canada due to self-employment under the income threshold"
 invoice:
   number: "[Invoice Number - e.g., 2025-001]"
   issued: "[Issue Date - e.g., 2025-01-31]"
