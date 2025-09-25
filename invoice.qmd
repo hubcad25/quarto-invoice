@@ -11,9 +11,9 @@ sender:
     country: "Canada"
   exempted: "Exempted from GST/HST in Canada due to self-employment under the income threshold"
 invoice:
-  number: "[Invoice Number - e.g., 2025-001]"
-  issued: "[Issue Date - e.g., 2025-01-31]"
-  due: "[Due Date - e.g., 2025-02-28]"
+  number: "2025-001"
+  issued: "2025-01-31"
+  due: "2025-02-28"
 recipient:
   name: "[Client Name]"
   address:
