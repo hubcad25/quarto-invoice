@@ -25,6 +25,13 @@ recipient:
 format:
   typst:
     template: "_extensions/hubcad25/quarto-invoice/template.typ"
+lang: "en_CA"
+region: "CA"
+papersize: "a4"
+margin:
+  x: "2.5cm"
+  y: "2.5cm"
+mainfont: "Alegreya Sans"
 brand:
   typography:
     fonts:
