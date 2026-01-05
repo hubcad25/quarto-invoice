@@ -1,6 +1,6 @@
 ---
 title: "Invoice [Invoice Number]"
-description: "[Invoice Period - e.g., 2025/01/01 -- 2025/01/31]"
+description: "[Invoice Period - e.g., 2026/01/01 -- 2026/01/31]"
 sender:
   name: "Hubert CADIEUX"
   email: "hubert.cadieux.1@ulaval.ca"
@@ -11,9 +11,9 @@ sender:
     country: "Canada"
   exempted: "Exempted from GST/HST in Canada due to self-employment under the income threshold"
 invoice:
-  number: "2025-001"
-  issued: "2025-01-31"
-  due: "2025-02-28"
+  number: "2026-001"
+  issued: "2026-01-31"
+  due: "2026-02-28"
 recipient:
   name: "[Client Name]"
   address:
